@@ -4,11 +4,12 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+
 html{
     margin: 0;
 }
-body {
 
+body {
     width: 100vw;
     height: 100vh;
     margin: 60px;
@@ -19,7 +20,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     line-height: 29px;
-    font-weight: 600;
+    font-weight: 600px;
     text-transform: uppercase;
     font-size: 24px;
     color: #989d9c;
@@ -33,11 +34,11 @@ a {
 .button-header {
     cursor: pointer;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 600px;
     color: #ffffff;
     background-color: #665ae1;
-    width: 130;
-    height: 41;
+    width: 130px;
+    height: 41px;
     border-radius: 20.5px;
     padding: 2px 15px;
     border: none;
@@ -61,44 +62,45 @@ img {
 #main-1{
     width: 50%;
     display: inline-block;
-    
 }
+
 .main-2{
     width: auto;
     display: inline-block;
     margin-top: 100px;
     margin-left: 86px;
     margin: 0 0 0 51px;
-    
-
 }
+
 h1{
    font-size: 100px;
-   font-weight: 900;
+   font-weight: 900px;
    line-height: 122px;
    color: #515151;
-    
 }
+
 h2{
     color: #515151;
-    font-weight: 500;
+    font-weight: 500px;
     line-height: 71px;
     font-size: 58px;
     margin-bottom: 40px;
 }
+
 p{
     color: #848484;
     line-height: 29px;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 24px;
     margin-top: 20px;
     width: 515px;
 }
+
 #button-main{
     background-color: #adff00;
     border-radius: 30.5px;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 34px;
     font-size: 28px;
     margin-top: 35px;
@@ -107,7 +109,6 @@ p{
     width: 200px;
     height: 64px;
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
-
 
 } 
 @media screen and (max-width: 1000px) {
@@ -129,11 +130,12 @@ p{
     h1{
         width: 263px;
         height: 52px;
-        font-weight: 900;
+        font-weight: 900px;
         font-size: 50px;
         line-height: 100%;
         margin-top: 0;
     }
+
     h2{
         width: 232px;
         height: 37px;
@@ -143,15 +145,18 @@ p{
         margin-bottom: 0;
 
     }
+
     #buttbutton-main{
         width: 239;
         height: 64;
         border-radius: 50px;
 
     }
+
     body{
         margin: 0;
     }
+
     .main-2{
         position: absolute;
         bottom: 150px;
