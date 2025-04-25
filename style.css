@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    margin: 0;
+}
+body {
+
+    width: 100vw;
+    height: 100vh;
+    margin: 60px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 29px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #989d9c;
+    width: 120px;
+    height: 29px;
+    top: -1323px;
+    left: -2645px;
+    margin-right: 23px;
+}
+
+.button-header {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #665ae1;
+    width: 130;
+    height: 41;
+    border-radius: 20.5px;
+    padding: 2px 15px;
+    border: none;
+    line-height: 29px;
+}
+
+header {
+    margin-top: 20px;
+
+}
+
+img {
+    width: 441px;
+    height: auto;
+    top: -1150px;
+    left: -3091px;
+    margin-top: 100px;
+    margin-left: 70px;
+
+} 
+#main-1{
+    width: 50%;
+    display: inline-block;
+    
+}
+.main-2{
+    width: auto;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 86px;
+    margin: 0 0 0 51px;
+    
+
+}
+h1{
+   font-size: 100px;
+   font-weight: 900;
+   line-height: 122px;
+   color: #515151;
+    
+}
+h2{
+    color: #515151;
+    font-weight: 500;
+    line-height: 71px;
+    font-size: 58px;
+    margin-bottom: 40px;
+}
+p{
+    color: #848484;
+    line-height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+    width: 515px;
+}
+#button-main{
+    background-color: #adff00;
+    border-radius: 30.5px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 28px;
+    margin-top: 35px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 64px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+
+
+} 
+@media screen and (max-width: 1000px) {
+    header{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    .main-1{
+        display: block;
+        height: 50%;
+    }
+    img{
+        width: 281px;
+        height: auto;
+        margin: 200px 0 0 29px;
+    }
+    h1{
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 100%;
+        margin-top: 0;
+    }
+    h2{
+        width: 232px;
+        height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 100%;
+        margin-bottom: 0;
+
+    }
+    #buttbutton-main{
+        width: 239;
+        height: 64;
+        border-radius: 50px;
+
+    }
+    body{
+        margin: 0;
+    }
+    .main-2{
+        position: absolute;
+        bottom: 150px;
+        margin-top: 47px;
+        margin-left: 95px;
+        width: 233px;
+        height: 45%;
+}
+
+    }
+    
