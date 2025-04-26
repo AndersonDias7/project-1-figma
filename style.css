@@ -116,7 +116,7 @@ p{
         display: none;
     }
     p{
-        display: 0;
+        display: none;
     }
     .main-1{
         display: block;
